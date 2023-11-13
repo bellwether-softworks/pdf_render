@@ -1,5 +1,5 @@
 #[macro_use] extern crate log;
-#[macro_use] extern crate pdf;
+#[macro_use] pub extern crate pdf;
 
 macro_rules! assert_eq {
     ($a:expr, $b:expr) => {
