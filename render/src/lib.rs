@@ -27,6 +27,9 @@ mod image;
 mod scene;
 mod font;
 
+pub use pathfinder_geometry;
+pub use pathfinder_renderer;
+
 pub use cache::{Cache};
 pub use fontentry::{FontEntry};
 pub use backend::{DrawMode, Backend, BlendMode, FillMode};
