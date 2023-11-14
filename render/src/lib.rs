@@ -30,6 +30,9 @@ mod font;
 pub use pathfinder_geometry;
 pub use pathfinder_renderer;
 
+#[cfg(feature = "export")]
+pub use pathfinder_export;
+
 pub use cache::{Cache};
 pub use fontentry::{FontEntry};
 pub use backend::{DrawMode, Backend, BlendMode, FillMode};

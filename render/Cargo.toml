@@ -6,6 +6,7 @@ edition = "2021"
 
 [features]
 unstable = []
+export = ["dep:pathfinder_export"]
 
 [[bench]]
 name = "render"
@@ -22,6 +23,7 @@ pathfinder_color = { git = "https://github.com/servo/pathfinder" }
 pathfinder_geometry = { git = "https://github.com/servo/pathfinder" }
 pathfinder_resources = { git = "https://github.com/servo/pathfinder" }
 pathfinder_content = { git = "https://github.com/servo/pathfinder" }
+pathfinder_export = { git = "https://github.com/servo/pathfinder", optional = true }
 log = "0.4"
 font = { git = "https://github.com/pdf-rs/font" }
 pdf_encoding = "0.3"
